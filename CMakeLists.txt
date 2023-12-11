@@ -12,8 +12,10 @@ target_include_directories(header_template INTERFACE include)
 
 option(BUILD_TESTING "Build tests" ON)
 
-if(BUILD_TESTING AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/test/CMakeLists.txt")
+add_subdirectory(test)
 
-  add_subdirectory(test)
+# if(BUILD_TESTING AND EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/test/CMakeLists.txt")
 
-endif()
+#   add_subdirectory(test)
+
+# endif()
