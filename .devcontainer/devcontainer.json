@@ -13,7 +13,7 @@
                 "ms-vscode.cpptools",
                 "ms-vscode.cmake-tools",
                 "ms-vscode.cpptools-extension-pack",
-                "openningia.vscode-google-test-adapter",
+                "piotrkosek.vscode-gtest-test-adapter-with-code-lens",
                 "ms-azuretools.vscode-docker",
                 "yzhang.markdown-all-in-one",
                 "github.copilot",
