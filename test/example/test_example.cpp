@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include <physics/engine/example.hpp>
+#include <example/example.hpp>
 
 TEST(ToggleTest, ToggleTrueToFalse)
 {

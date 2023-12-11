@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.28 FATAL_ERROR)
-project(physics_engine)
+project(header_template)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(physics_engine INTERFACE)
-add_library(physics::engine ALIAS physics_engine)
+add_library(header_template INTERFACE)
+add_library(template::example ALIAS header_template)
 
-target_include_directories(physics_engine INTERFACE include)
+target_include_directories(header_template INTERFACE include)
 
 option(BUILD_TESTING "Build tests" ON)
 
